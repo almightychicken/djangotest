@@ -17,4 +17,4 @@ Lorem ipsum
 ```
 
 ## License
-[MIT](https://google.com)
+[Google](https://google.com)
