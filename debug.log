@@ -1,0 +1,8 @@
+ERROR Internal Server Error: / 2021-02-07 16:57:27,313
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Program Files (x86)\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: index() missing 1 required positional argument: 't'
+ERROR "GET / HTTP/1.1" 500 59806 2021-02-07 16:57:27,317
