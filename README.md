@@ -15,3 +15,6 @@ Lorem ipsum
   hello.world()
 
 ```
+
+## License
+[MIT](https://google.com)
