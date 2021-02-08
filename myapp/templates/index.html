@@ -19,5 +19,9 @@
   <div class="header">
     <h3>Hello to test page</h3>
   </div>
+
+  {% for item in titles %}
+    <div>{{item.title}}</div>
+  {% endfor %}
 </body>
 </html>
