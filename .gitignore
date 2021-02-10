@@ -1,4 +1,4 @@
 *.pyc
 admin/
 prepros.config
-migrations/*.py
+migrations/*
