@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '36)8myk7f*(5b338o@i0ra(e$-szw4p)nsg8#l*w)&#38i7hlg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sviatoslav.pythonanywhere.com']
 
 
 # Application definition
@@ -79,8 +79,10 @@ WSGI_APPLICATION = 'exampleproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'sviatoslav$test',
+        'PASSWORD': 'Abramov347834',
+        'HOST': 'sviatoslav.mysql.pythonanywhere-services.com'
     }
 }
 
