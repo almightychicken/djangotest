@@ -1,0 +1,13 @@
+$color: yellow;
+
+@mixin headerBlock {
+  text-align: center;
+  display: block;
+  max-width: 100vw;
+  height: 70px;
+  background-color: $color;
+}
+
+div {
+  @include headerBlock();
+}
