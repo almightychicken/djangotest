@@ -1,4 +1,10 @@
 $color: yellow;
+$hoverColor: red;
+
+html {
+  margin: 0;
+  padding: 0;
+}
 
 @mixin headerBlock {
   text-align: center;
@@ -6,8 +12,13 @@ $color: yellow;
   max-width: 100vw;
   height: 70px;
   background-color: $color;
+  transition: ease-in
 }
 
 div {
   @include headerBlock();
+}
+
+div:hover {
+  background-color: $hoverColor;
 }

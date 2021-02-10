@@ -1,7 +1,17 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 div {
   text-align: center;
   display: block;
   max-width: 100vw;
   height: 70px;
   background-color: yellow;
+  transition: ease-in;
+}
+
+div:hover {
+  background-color: red;
 }
